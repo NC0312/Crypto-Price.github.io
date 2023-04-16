@@ -91,3 +91,28 @@ body{
 .coin.falling .coin-price .price{
     color: #ff4040;
 }
+
+@media screen and (max-width:550px){
+    .coin{
+        display: flex;
+        width: 340px;
+        height: 60px;
+        border-radius: 8px;
+        margin: 18px 0;
+    }
+    
+    .coin .coin-logo{
+        width: 70px;
+    }
+    
+    .coin .coin-logo img{
+        width: 70%;
+        height: 70%;
+    }
+    
+    
+    .coin .coin-name h3{
+        font-size: 20px;
+    }
+    
+}
